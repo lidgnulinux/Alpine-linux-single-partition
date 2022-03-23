@@ -103,6 +103,8 @@ Perintah :
 
 > \# echo "nama hostname" > /etc/hosname
 
+![Set hostname](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/07.set-hostname.png "Set hostname")
+
 <br>
 
 8. Set zona waktu.
@@ -112,6 +114,8 @@ Kita perlu mengatur zona waktu.
 Perintah :
 
 > \# setup-timezone
+
+![Set zona waktu](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/08.set-timezone.png "Set zona waktu")
 
 <br>
 
@@ -124,6 +128,8 @@ Perintah :
 > \# grub-install /dev/sda
 
 > \# grub-mkconfig -o /boot/grub/grub.cfg
+
+![Memasang grup dan update grub](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/09.install-grub-update-grub.png "Memasang grup dan update grub")
 
 <br>
 
@@ -145,8 +151,20 @@ Perintah :
 
 > \# umount /mnt
 
+![Keluar dan meng-unmount filesystem](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/10.exit-umount.png "Keluar dan meng-unmount filesystem")
+
 <br>
 
 11. Tampilan grub.
 
+Jika beruntung, setelah reboot kita akan disambut tampilan GRUB.
+
+![Tampilan GRUB](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/11.grub.png "Tampilan GRUB")
+
+<br>
+
 12. Login.
+
+Jika beruntung lagi, kita akan disuguhi login prompt dan bisa langsung beraktifitas.
+
+![Login](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/12.login.png "Login")
