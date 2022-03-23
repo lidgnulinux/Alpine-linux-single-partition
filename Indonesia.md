@@ -32,6 +32,8 @@ Perintah :
 
 > \# mount /dev/sda1 /mnt
 
+![Format dan Mount](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/02.format-dan-mount.png "Format dan Mount")
+
 <br>
 
 3. Memilih mirror atau repositori.
@@ -44,6 +46,8 @@ Perintah :
 
 NB : Pilih nomor 1 saja, agar lebih cepat.
 
+![Memilih Mirror](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/03.Pilih-Repo.png "Memilih Mirror")
+
 <br>
 
 4. Memasang system.
@@ -55,6 +59,10 @@ Perintah :
 > \# export BOOTLOADER=grub
 
 > \# setup-disk -m sys /mnt
+
+![Install System](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/04.Install-system-1.png "Install System")
+
+![Install System](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/04.Install-system-2.png "Install System")
 
 <br>
 
@@ -72,6 +80,7 @@ Sebelum kita melaukan chroot, kita perlu mount beberapa filesystem (dev, sys, pr
 
 > \# chroot /mnt /bin/ash -l
 
+![Mount Filesystem dan chroot](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/05.mount-fs-chroot.png "Mount Filesystem dan chroot")
 <br>
 
 6. Set password root.
@@ -81,6 +90,8 @@ Kita perlu mengatur passwd root.
 Perintah :
 
 > \# passwd
+
+![Set password root](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/06.set-password.png "Set password root")
 
 <br>
 
