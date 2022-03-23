@@ -139,6 +139,7 @@ Perintah :
 Setelah dirasa cukup, kita bisa keluar dari chroot dan meng-unmount filesystem.
 
 Perintah :
+> \# exit
 
 > \# cd /mnt
 
