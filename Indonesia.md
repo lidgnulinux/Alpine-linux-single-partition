@@ -62,6 +62,7 @@ Perintah :
 
 ![Install System](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/04.Install-system-1.png "Install System")
 
+
 ![Install System](https://github.com/lidgnulinux/Alpine-linux-single-partition/blob/main/Dokumentasi/04.Install-system-2.png "Install System")
 
 <br>
