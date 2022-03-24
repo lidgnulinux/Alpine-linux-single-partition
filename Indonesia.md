@@ -6,7 +6,7 @@
 2. Format dan mount partisi.
 3. Memilih mirror atau repositori.
 4. Memasang system.
-5. Mount filsesystem dan chroot.
+5. Mount filesystem dan chroot.
 6. Set password root.
 7. Set hostname.
 8. Set zona waktu.
@@ -67,7 +67,7 @@ Perintah :
 
 <br>
 
-5. Mount filsesystem dan chroot.
+5. Mount filesystem dan chroot.
 
 Sebelum kita melaukan chroot, kita perlu mount beberapa filesystem (dev, sys, proc)  terlebih dahulu.
 
