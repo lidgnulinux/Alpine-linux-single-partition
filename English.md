@@ -140,6 +140,8 @@ After we feel sure, we can exit from chroot and unmount filesystem.
 
 Command :
 
+> \# exit 
+
 > \# cd /mnt
 
 > \# umount dev
